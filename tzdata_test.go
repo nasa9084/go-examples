@@ -3,7 +3,7 @@ package example_test
 import (
 	"fmt"
 	"time"
-	// _ "time/tzdata"
+	_ "time/tzdata"
 )
 
 // ExampleTZData is an example using time/tzdata. time/tzdata is imported
