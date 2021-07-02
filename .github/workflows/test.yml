@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        # latest 2 versions
-        go: [ 1.15, 1.16 ]
+        # embed package is supported by 1.16 or later
+        go: [ 1.16 ]
     steps:
       - name: Setup Go environment
         uses: actions/setup-go@v2
